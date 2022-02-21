@@ -11,7 +11,7 @@ collections_dir: .
 plugins_dir: assets/plugins
 layouts_dir: _layouts
 data_dir: _data
-includes_dir: assets/html/includeContents
+includes_dir: _includes
 
 plugins:
   - jekyll-github-metadata
