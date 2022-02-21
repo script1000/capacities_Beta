@@ -1,3 +1,21 @@
 name: Capacities
 title: Capacities
 url: https://script1000.github.io/capacities_Beta/
+
+show_dir_listing: true
+
+
+
+includes_dir: assets/html/includeContents
+
+plugins:
+  jekyll-github-metadata
+  jekyll-seo-tag
+  jekyll-coffeescript
+  jekyll-commonmark-ghpages
+  jekyll-gist
+  jekyll-paginate
+  jekyll-relative-links
+  jekyll-optional-front-matter
+  jekyll-titles-from-headings
+  
