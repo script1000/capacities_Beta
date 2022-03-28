@@ -1,5 +1,5 @@
 (function() {
-    var freq = 500;
+    var freq = 420;
     var ctx;
     var signal;
 
@@ -41,7 +41,7 @@
             var t = s + offset;
             if (t < 0) return;
             var osc = ctx.createOscillator();
-            osc.type = "square";
+            osc.type = "sine";
             osc.frequency.value = freq;
             osc.start(t);
             osc.stop(t + 0.2);
